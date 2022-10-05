@@ -2,7 +2,7 @@
 Repository for Freecodecamp projects
 
 ## 1. Mean-Variance-Standard Deviation Calculator
-Create a function named calculate() in mean_var_std.py that uses Numpy to output the mean, variance, standard deviation, max, min, and sum of the rows, columns, and elements in a 3 x 3 matrix.
+Create a function named `calculate()` in `mean_var_std.py` that uses Numpy to output the mean, variance, standard deviation, max, min, and sum of the rows, columns, and elements in a 3 x 3 matrix.
 
 The input of the function should be a list containing 9 digits. The function should convert the list into a 3 x 3 Numpy array, and then return a dictionary containing the mean, variance, standard deviation, max, min, and sum along both axes and for the flattened matrix.
 
@@ -19,7 +19,7 @@ The returned dictionary should follow this format:
 ```
 If a list containing less than 9 elements is passed into the function, it should raise a ValueError exception with the message: "List must contain nine numbers." The values in the returned dictionary should be lists and not Numpy arrays.
 
-For example, calculate([0,1,2,3,4,5,6,7,8]) should return:
+For example, `calculate([0,1,2,3,4,5,6,7,8])` should return:
 ```
 {
   'mean': [[3.0, 4.0, 5.0], [1.0, 4.0, 7.0], 4.0],
@@ -30,7 +30,7 @@ For example, calculate([0,1,2,3,4,5,6,7,8]) should return:
   'sum': [[9, 12, 15], [3, 12, 21], 36]
 }
 ```
-The unit tests for this project are in test_module.py.
+The unit tests for this project are in `test_module.py`.
 
 [Link to the code](https://github.com/jjean95/freecodecamp-data-analytics/blob/main/project_1/mean_var_std.py)
 
@@ -56,6 +56,6 @@ You must use Pandas to answer the following questions:
 * What country has the highest percentage of people that earn >50K and what is that percentage?
 * Identify the most popular occupation for those who earn >50K in India.
 
-Use the starter code in the file demographic_data_analyzer. Update the code so all variables set to "None" are set to the appropriate calculation or code. Round all decimals to the nearest tenth.
+Use the starter code in the file `demographic_data_analyzer`. Update the code so all variables set to "None" are set to the appropriate calculation or code. Round all decimals to the nearest tenth.
 
-Unit tests are written for you under test_module.py.
+Unit tests are written for you under `test_module.py`.
