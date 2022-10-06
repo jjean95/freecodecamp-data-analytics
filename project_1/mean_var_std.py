@@ -2,7 +2,7 @@ import numpy as np
 
 def calculate(list):
   if len(list) != 9:
-    raise ValueError("List must contain nine numbers.")
+    raise ValueError("List must contain nine numbers.") #to eliminate any list with less than 9 numbers
       
   ls = np.array(list).reshape(3,3)
   cal_mean_ax0 = ls.mean(axis=0).tolist()
