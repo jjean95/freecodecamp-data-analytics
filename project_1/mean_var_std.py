@@ -4,7 +4,7 @@ def calculate(list):
   if len(list) != 9:
     raise ValueError("List must contain nine numbers.") #to eliminate any list with less than 9 numbers
       
-  ls = np.array(list).reshape(3,3)
+  ls = np.array(list).reshape(3,3) #change list into an array, and reshape it into 3X3
   cal_mean_ax0 = ls.mean(axis=0).tolist()
   cal_mean_ax1 = ls.mean(axis=1).tolist()
   cal_var_ax0 = ls.var(axis=0).tolist()
