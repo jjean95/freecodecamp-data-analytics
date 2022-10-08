@@ -59,3 +59,5 @@ You must use Pandas to answer the following questions:
 Use the starter code in the file `demographic_data_analyzer`. Update the code so all variables set to "None" are set to the appropriate calculation or code. Round all decimals to the nearest tenth.
 
 Unit tests are written for you under `test_module.py`.
+
+[Link to the code](https://github.com/jjean95/freecodecamp-data-analytics/blob/main/project_2/)
