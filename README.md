@@ -65,4 +65,4 @@ Unit tests are written for you under `test_module.py`.
 ## 3. Medical Data Visualizer
 visualize and make calculations from medical examination data using matplotlib, seaborn, and pandas. The dataset values were collected during medical examinations.
 
-[Link to the code](https://github.com/jjean95/freecodecamp-data-analytics/blob/main/project_2/demographic_data_analyzer.py)
+[Link to the code](https://github.com/jjean95/freecodecamp-data-analytics/blob/main/project_3/medical_data_visualizer.py)
