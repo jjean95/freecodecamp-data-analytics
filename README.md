@@ -80,7 +80,7 @@ The rows in the dataset represent patients and the columns represent information
 | Smoking |	Subjective | Feature | smoke |	binary |
 | Alcohol intake |	Subjective | Feature	| alco	| binary |
 | Physical activity |	Subjective | Feature	| active	| binary |
-| Presence or absence of cardiovascular disease |	Target Variable |	cardio	| binary |
+| Presence or absence of cardiovascular disease |	Target | Variable |	cardio	| binary |
 
 File name: medical_examination.csv
 
